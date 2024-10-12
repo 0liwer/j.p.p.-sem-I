@@ -20,11 +20,23 @@ public class Main {
 
         System.out.println(mySum);
 
-     boolean Value1 = true;
-             boolean Value2 = false;
+        boolean Value1 = true;
+        boolean Value2 = false;
         boolean myResult = (Value1 || Value2);
+
         System.out.print(myResult);
 
-        int liczbaJeden = 5;
-        int liczbaDwa =7;
-        if (liczbaJeden > liczbaDwa){ System.out.println("Liczba " + liczbaJeden "jest wieksza od liczby" + liczbaDwa);}
+        for (int i = 0; i < 10; i++) {
+            System.out.print(i + ", ");
+
+
+        }
+        int i = 0;
+        while (i < 10) {
+            System.out.print(i + " ");
+            ++i;
+        }
+        System.out.println("Licznik pętli: " + i);
+    }
+
+}
