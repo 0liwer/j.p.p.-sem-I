@@ -1,24 +1,24 @@
 public class Main {
-public static void main(String[] args) {
-    System.out.println("Hello word");
-    int number = 5;
+    public static void main(String[] args) {
+        System.out.println("Hello word");
 
-    number = 3;
-    number -= 10;
+        int number = 5;
 
-    System.out.println(number);
+        number = 3;
+        number -= 10;
 
-    int a =5;
-    int b =7;
-    int sum = a+b;
-    System.out.println(sum);
+        System.out.println(number);
 
-    float myFirstNumber = 3.3f;
-    float mySecondNumber = 5.2f;
-    float myResult = myFirstNumber / mySecondNumber;
+        int a = 5;
+        int b = 7;
+        int sum = a + b;
+        System.out.println(sum);
 
-            System.out.println(myResult);
+        float myFirstNumber = 3.3f;
+        float mySecondNumber = 5.2f;
+        float mySum = myFirstNumber / mySecondNumber;
+
+     boolean Value1 = true
+        System.out.println(mySum);
     }
 }
-
-
