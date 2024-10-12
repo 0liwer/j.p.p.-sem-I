@@ -18,9 +18,13 @@ public class Main {
         float mySecondNumber = 5.2f;
         float mySum = myFirstNumber / mySecondNumber;
 
+        System.out.println(mySum);
+
      boolean Value1 = true;
              boolean Value2 = false;
+        boolean myResult = (Value1 || Value2);
+        System.out.print(myResult);
 
-        System.out.println(mySum);
-    }
-}
+        int liczbaJeden = 5;
+        int liczbaDwa =7;
+        if (liczbaJeden > liczbaDwa){ System.out.println("Liczba " + liczbaJeden "jest wieksza od liczby" + liczbaDwa);}
