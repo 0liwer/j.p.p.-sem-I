@@ -18,7 +18,9 @@ public class Main {
         float mySecondNumber = 5.2f;
         float mySum = myFirstNumber / mySecondNumber;
 
-     boolean Value1 = true
+     boolean Value1 = true;
+             boolean Value2 = false;
+
         System.out.println(mySum);
     }
 }
